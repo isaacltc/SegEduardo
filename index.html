@@ -7,10 +7,10 @@
     <meta name="description"
         content="Adoc Corretora e Administradora de Seguros e Consórcios. Soluções completas em seguros de vida, auto, residencial, empresarial e consórcios de veículos, imóveis e serviços.">
     <link rel="icon" type="image/png" href="assets/imgs/simbolo.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Inter:wght@400;500;600;700;800&family=Sora:wght@400;600;800&display=swap">
     <link
-        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@400;600;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Inter:wght@400;500;600;700;800&family=Sora:wght@400;600;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Adoc Corretora | Seguros e Consórcios</title>
@@ -34,7 +34,7 @@
     </nav>
 
     <section class="hero">
-        <img src="assets/imgs/nata.jpg" alt="Família protegida por seguro" class="hero-bg">
+       <img src="assets/imgs/nata.jpg" alt="Família protegida por seguro" class="hero-bg" fetchpriority="high">
 
         <div class="hero-overlay">
             <div class="hero-text">
@@ -225,15 +225,15 @@
                     seguros e consórcios, com 12 anos de experiência no mercado, oferecendo soluções que proporcionam
                     segurança, proteção patrimonial e planejamento financeiro para pessoas físicas e jurídicas.
 
-                    Ao longo de nossa trajetória, conquistamos a confiança de nossos clientes e alcançamos resultados
+                <p>Ao longo de nossa trajetória, conquistamos a confiança de nossos clientes e alcançamos resultados
                     expressivos: protegemos mais de R$ 200 milhões em patrimônios por meio de soluções em seguros e
                     comercializamos mais de R$ 120 milhões em consórcios, contribuindo para a realização de sonhos e
-                    investimentos com planejamento e segurança.
+                    investimentos com planejamento e segurança.</p>
 
-                    Nosso compromisso é oferecer atendimento personalizado, transparência, ética e excelência, sempre
+                <p>Nosso compromisso é oferecer atendimento personalizado, transparência, ética e excelência, sempre
                     identificando as melhores soluções para cada cliente. Na ADOC, acreditamos que cada patrimônio
                     protegido e cada objetivo alcançado reforçam nossa missão de construir relações duradouras baseadas
-                    na confiança e na credibilidade.
+                    na confiança e na credibilidade.</p>
                 </p>
                 <div class="sobre-info">
                     <p><strong>CNPJ:</strong> 24.637.782/0001-32</p>
@@ -282,7 +282,7 @@
         <img src="assets/imgs/whatsapp.png" alt="WhatsApp">
     </a>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
